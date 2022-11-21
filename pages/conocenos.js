@@ -19,7 +19,7 @@ const Conocenos = () => {
           <h4 class="card-title">Familia Cuellar-Sivistum</h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.
           Some quick example text to build on the card title and make up the bulk of the cards content.
-          Some quicsssssk example text stssssso build on the card title and make up the bulk of the cards content.
+          Some quicsssssk example text stsssssssssssssso build on the card title and make up the bulk of the cards content.
           Some quick example text to build on the card title and make up the bulk of the cards content.</p>
         </div>
       </div>
