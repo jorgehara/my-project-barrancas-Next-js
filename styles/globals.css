@@ -44,7 +44,11 @@ a {
   /* justify-content: ; */
   background-image: linear-gradient(to right, rgb(0 0 0 /.3), rgba(63, 32, 32, 0.6)), url("./../public/cruz.jpg"); 
   background-size: cover;
-  background-position: center;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+
 
   /* object-fit: "hidden"; */
 }

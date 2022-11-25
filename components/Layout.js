@@ -7,12 +7,12 @@ import SideNavBar from "./SideNavBar/SideNavBar";
 const Layout = (props) => {
   return (
     <>
-      <div class="container text-center">
-        <div class="row justify-content-lg-center">
-          <div class="col-lg-12">
+      <div class="text-center w-100">
+        <div class="row d-flex flex-row">
+          <div class="col-xl-12">
             <PhotoCard />
           </div>
-          <div class="row col-lg-10">
+          <div class="col-lg-12">
             <ButtonVertical />
             {props.children}
           </div>
