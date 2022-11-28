@@ -21,8 +21,10 @@ a {
 * {
   box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+and (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -37,23 +39,31 @@ a {
   width: 100vw;
   height: 100vw;  
   display: grid;
-  grid-template-columns: 3fr;
+  grid-template-columns: 3fr 1fr;
   align-items: stretch;
-  padding-left: 40%;
-  padding-top: 2rem;
+  padding-left: 35%;
+  padding-top: 5rem;
   /* justify-content: ; */
-  background-image: linear-gradient(to right, rgb(0 0 0 /.3), rgba(63, 32, 32, 0.6)), url("./../public/cruz.jpg"); 
+  background-image: linear-gradient(to right, rgb(0 0 0 /.3), rgba(63, 32, 32, 0.6)), url("./../public/cruz1.jpg"); 
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
-
-  /* object-fit: "hidden"; */
+  object-fit: "hidden";
 }
 
 .familias-card{
-  margin-left: 2.5%;
-  padding-top: -4%;
+  /* margin-left: 2.5%;
+  padding-top: -4%; */
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 36.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

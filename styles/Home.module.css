@@ -4,8 +4,8 @@
 
 .main {
   min-height: 100%;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 0rem 0;
+  flex: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,7 +125,7 @@
 
 .bg-front{
   position: relative;
-  margin-top: 180%;
+  margin-top: 60%;
 }
 
 @media (max-width: 1200px) {

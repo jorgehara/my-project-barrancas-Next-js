@@ -8,7 +8,7 @@ const PhotoCard = ({}
     <>
       <div className='p-3'>
       <div className='image-background'
-      style={{height:576, vw:100}}
+      style={{height:976, vw:100}}
       >
           <div className="">
             <h1>Proyecto Barrancas</h1> 
